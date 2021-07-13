@@ -207,3 +207,40 @@ margin: 0px 15px 33px 15px ;
     background-color: #E02C6D;
     align-items: center;
 }
+
+/* blogs end */
+/* footer start */
+footer{
+    margin-top: 158px;
+}
+
+
+
+.footer-img{
+    display: flex;;
+    flex-direction: column;
+
+align-items: center;
+ 
+   
+    
+
+}
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+
+.footer-img p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#social-icons img{
+    width: 32px;
+    height: 32px;
+
+}
+#social-icons{
+    margin: 20px 0;
+}
