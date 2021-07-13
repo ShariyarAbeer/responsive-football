@@ -15,22 +15,95 @@ header{
 }
 
 /* nav css */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    margin-left: 156px;
+    margin-right: 124px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: #FFFF;
+    
+}
+nav ul li{
+    margin: 0 17px;    
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFF;
+    padding-left: 24px;
+
+    
+    background-color: #E02C6D;
+
+}
+.fas-login{
+    margin-right: 8px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+/* header banner */
 .full-banner{
     display: flex;
     justify-content: center;
 }
 
 .banner-title{
-    margin-right: 51px;
+  margin-left: 50px;
     margin-top: 207px;
 }
+#title{
+    color: #FFFF;
+    width: 485px;
+    height: 230px;
+    margin-bottom: 27px;
+    font-style: 700;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    }
+.banner-title a{
+    color: #FFFF;
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    align-items: center;
+    
+    
+}
+.watch{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
 .banner-img{
-    margin-left: 51px;
+    padding-left: 51px;
     margin-top: 153px;
 }
 
 .banner-img img{
     height: 410px;
     width: 542px;
-    margin-left: 51px;
+    
+}
+
+.fas-w{
+    margin-left: 8px;
 }
