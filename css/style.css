@@ -195,6 +195,11 @@ margin: 0px 15px 33px 15px ;
     font-size: 48px;
     line-height: 60px;
 }
+.blog p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+}
 .blog a{
     color: #FFFF;
     text-decoration: none;
