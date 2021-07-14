@@ -4,6 +4,7 @@
 
 /* full body */
 *{
+  
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -474,19 +475,38 @@ hr{
 @media only screen and (min-width:300px) and (max-width:687px){
 
     header{
-        background-color: red;
+        background-color:#2D25A0;
+    }
+    main{
+        
+      width: 360px;
+      margin-left: 10px;
+    }
+    .banner-title {
+        
+        margin-top:0px
     }
     .full-banner{
         display: block;
     }
+    .section-one{
+        
+        justify-content: center;
+    }
+    .high{
+        width: 50%;
+    }
     .all-player{
         
         grid-template-columns: repeat(1,1fr);
-     
+        align-items: center;
+        justify-content: center;
        
     }
     .side-by-side{
         display: grid;
+        margin: 0;
+        width: 360px;
         grid-template-columns: repeat(1,1fr);
         
     }
@@ -499,20 +519,30 @@ hr{
     hr{
         width: 10%;
     }
+    header > .full-banner:hover > .banner-img {
+        transform: scale(0.5);
+        
+    }
     .banner-img{
-        height: 200px;
-        width: 400px;
+        
+        width: 360px;
 
     }
     .banner-img img{
-        height: 400px;
-        width: 400px;
+        
+        width: 360px;
+    }
+    .section-fifa{
+        display: block;
+
     }
     .all-fifa{
         display: grid;
            grid-template-columns: repeat(1,1fr);
         grid-column-gap: 30px;
+        align-items: center;
    }
+ 
    nav{
        display: none;
    }
@@ -527,11 +557,40 @@ hr{
 }
 #title{
     color: #FFFF;
-   
-    margin-bottom: 27px;
+   height: 100px;
+    margin-bottom: 12px;
     font-style: 700;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
     }
+    .fifa{
+        width: 420px;
+       
+    }
+    .fifa img{
+        width: 360px;
+        margin: 0;
+    }
+    .fifa-info{
+        width: 360px;
+        margin: 0px 0px 33px 15px ;
+            height: 554;
+    
+    }
+    .section-four>h1{
+        width: 360px;
+    }
+    .footer-img img{
+        width: 383px;
+        height: 110px;
+    }
+    
+    .footer-img p{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 63px;
+    }
+
+   
 }
