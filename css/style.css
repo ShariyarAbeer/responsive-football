@@ -431,6 +431,10 @@ align-items: center;
         height: 310px;
         width: 342px;
     }
+    .blog h1{
+        font-size:20px;
+        margin:5px;
+    }
     .all-fifa{
          display: grid;
             grid-template-columns: repeat(1,1fr);
