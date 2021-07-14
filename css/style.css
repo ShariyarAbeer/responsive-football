@@ -2,7 +2,7 @@
 
 
 
-
+/* full body */
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ header{
     margin-bottom: 70px;
 }
 
-/* nav css */
+/* nav css start */
 nav{
     display: flex;
     justify-content: space-between;
@@ -71,9 +71,10 @@ nav a:hover{
     font-weight: 500;
     line-height: 24px;
 }
+/* nav css end */
 
 
-/* header banner */
+/* header banner start */
 .full-banner{
     display: flex;
     justify-content: center;
@@ -135,13 +136,13 @@ header > .full-banner:hover > .banner-img {
     margin-left: 8px;
 }
 /* header end */
-/* main start*/
+/* section one start */
 .section-one{
     display: flex;
     justify-content: center;
 }
 
-/* section one start */
+
 .all-player{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -182,7 +183,7 @@ margin: 0px 15px 33px 15px ;
     margin: 10px 0 33px 0;
 }
 /* section one end */
-/* section two start */
+/* section two blog start */
 .side-by-side{
     display: flex;
     width: 80%;
@@ -239,7 +240,130 @@ margin: 0px 15px 33px 15px ;
 }
 
 
-/* blogs end */
+/* section two blog end */
+/* section three world ranking start */
+.section-ranking h1{
+    margin-top: 100px;
+    color:black;
+    width: 469px;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    font-style: 700;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+
+}
+.man{
+   width: 50%;
+   
+}
+hr{
+    width: 400px;
+}
+.ranking-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+}
+.ranking-column h5{
+  
+    justify-content: start;
+    margin: 5px;
+   
+    
+}
+#team-title{
+    text-align: center;
+}
+.column-img{
+    display: flex;
+   align-items: center;
+  
+  justify-content: space-between;
+  
+
+}
+.column-img img{
+    width: 50px;
+    height: 30px;
+}
+.point{
+    text-align: center;
+}
+.woman{
+    width: 50%;
+
+}
+/* section three world ranking end */
+/* section four all FIFA start */
+.section-four>h1{
+    margin-top: 100px;
+    color:black;
+    width: 469px;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    font-style: 700;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.section-four>h5>a:hover{
+    color: #E02C6D;
+}
+.section-four>h5>a{
+    text-decoration: none;
+    color: black;
+}
+.section-four>h5{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+   
+}
+.section-fifa{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.all-fifa{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+.fifa{
+    width: 500px;
+    height: 474px;
+    margin-bottom: 27px;
+  
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-bottom: 33px;
+}
+.fifa img{
+    width: 467px;
+    height: 256px;
+    margin: 15px 15px 15px 16px;;
+}
+.fifa-info{
+    width: 467px;
+    margin: 0px 15px 33px 15px ;
+        height: 154;
+
+}
+.fifa-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 10px 0 33px 0;
+}
+
+
+/* section four all FIFA end */
+
+
 /* footer start */
 footer{
     margin-top: 158px;
@@ -275,3 +399,5 @@ align-items: center;
 #social-icons{
     margin: 20px 0;
 }
+
+/* footer end */
