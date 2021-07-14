@@ -24,6 +24,10 @@ nav{
     margin-right: 124px;
     align-items: center;
 }
+nav ul li:hover{
+   opacity: 0.8;
+}
+
 nav ul{
     display: flex;
     list-style: none;
@@ -34,11 +38,16 @@ nav ul li{
     margin: 0 17px;    
 }
 
-.banner-img:hover{
-    transform: scale(1.5);
+nav ul a{
+    text-decoration: none;
+    color: #FFFF;
 }
 
-nav a{
+nav a:hover{
+    opacity: 0.8;
+}
+
+#nav-login{
     text-decoration: none;
     padding-right: 24px;
     padding-top: 10px;
@@ -93,14 +102,27 @@ nav a{
     
     
 }
+header > .full-banner:hover > .banner-img {
+    transform: scale(1.5);
+    
+}
+.banner-title a:hover{
+    opacity: 0.8;
+}
+
+
 .watch{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
+.banner-img:hover{
+    opacity: 0.7;
+}
 .banner-img{
     padding-left: 51px;
     margin-top: 153px;
+    transition:  3s ease  ;
 }
 
 .banner-img img{
@@ -186,8 +208,12 @@ margin: 0px 15px 33px 15px ;
     margin-left: 20px;
 
 }
+#live-watch:hover{
+    opacity: 0.8;
+}
 #live-watch{
     margin-top: 130px;
+    width: 170px;
 }
 .blog h1{
     color:black;
@@ -211,6 +237,7 @@ margin: 0px 15px 33px 15px ;
     background-color: #E02C6D;
     align-items: center;
 }
+
 
 /* blogs end */
 /* footer start */
