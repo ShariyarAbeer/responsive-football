@@ -11,6 +11,7 @@
 
 /* header css */
 header{
+    width: 100%;
     background-color: #2D25A0;
     margin-bottom: 70px;
 }
@@ -407,3 +408,130 @@ align-items: center;
 }
 
 /* footer end */
+
+
+/* media queries */
+/* tab */
+@media only screen and (min-width:688px) and (max-width:1150px) {
+
+    .banner-title{
+        width: 80%;
+    }
+    .full-banner{
+        width: 80%;
+        margin: auto;
+    }
+    .banner-img{
+        height: 310px;
+        width: 200px;
+
+    }
+    .banner-img img{
+        height: 310px;
+        width: 342px;
+    }
+    .all-fifa{
+         display: grid;
+            grid-template-columns: repeat(1,1fr);
+         grid-column-gap: 30px;
+    }
+    .full-banner{
+        display: block;
+    }
+    
+    .section-ranking h1 {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+}
+hr{
+    width: 50%;
+}
+.section-four>h1{
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+} 
+    .side-by-side{
+
+    width: 70%;
+    margin: auto;
+}
+.section-one{
+  
+    justify-content: center;
+}
+    .all-player{
+        
+        grid-template-columns: repeat(2,1fr);
+     
+       
+    }
+}
+
+/* mobile */
+
+@media only screen and (min-width:300px) and (max-width:687px){
+
+    header{
+        background-color: red;
+    }
+    .full-banner{
+        display: block;
+    }
+    .all-player{
+        
+        grid-template-columns: repeat(1,1fr);
+     
+       
+    }
+    .side-by-side{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .man{
+        width: 100%;
+    }
+    .woman{
+        width: 100%;
+    }
+    hr{
+        width: 10%;
+    }
+    .banner-img{
+        height: 200px;
+        width: 400px;
+
+    }
+    .banner-img img{
+        height: 400px;
+        width: 400px;
+    }
+    .all-fifa{
+        display: grid;
+           grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+   }
+   nav{
+       display: none;
+   }
+   .blog h1{
+    color:black;
+    
+    
+    font-style: 700;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 60px;
+}
+#title{
+    color: #FFFF;
+   
+    margin-bottom: 27px;
+    font-style: 700;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    }
+}
