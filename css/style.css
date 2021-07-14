@@ -48,6 +48,8 @@ nav a:hover{
 }
 
 #nav-login{
+    width: 100px;
+    text-align: center;
     text-decoration: none;
     padding-right: 24px;
     padding-top: 10px;
@@ -182,6 +184,7 @@ margin: 0px 15px 33px 15px ;
     font-size: 16px;
     color: #6C6C6C;
     margin: 10px 0 33px 0;
+  
 }
 /* section one end */
 /* section two blog start */
@@ -390,6 +393,7 @@ align-items: center;
 .footer-img p{
     font-size: 18px;
     line-height: 24px;
+    margin-bottom: 63px;
 }
 
 #social-icons img{
@@ -398,7 +402,8 @@ align-items: center;
 
 }
 #social-icons{
-    margin: 20px 0;
+
+    margin: 20px;
 }
 
 /* footer end */
